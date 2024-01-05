@@ -30,6 +30,8 @@ export function getContentURL(){
             return url.template.content+"saved.html";
         case "logout":
             return url.template.content+"logout.html";
+        case "crud/get":
+            return url.template.content+"geojson/table.html";
         default:
             return url.template.content+"home.html";
     }
