@@ -12,6 +12,9 @@ import {runAfterHeader,runAfterContent,runAfterHashChange} from "./controller/ma
 addCSS("https://unpkg.com/bulma@0.9.4/css/bulma.min.css");
 addCSS("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 addCSS("https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css");
+// addCSS("https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css");
+// addCSS("https://cdn.jsdelivr.net/node_modules/ol/ol.css");
+// addCSS("https://cdn.jsdelivr.net/gh/rofinafiin/GIS-SMT5@0.0.1/ch4/css/style.css");
 addCSS("assets/css/styles.css");
 
 //rendering HTML

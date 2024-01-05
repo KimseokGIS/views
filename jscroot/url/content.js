@@ -32,6 +32,14 @@ export function getContentURL(){
             return url.template.content+"logout.html";
         case "crud/get":
             return url.template.content+"geojson/table.html";
+        case "map/ch1":
+            return url.template.content+"geojson/ch1.html";
+        case "map/ch2":
+            return url.template.content+"geojson/ch2.html";
+        case "map/ch3":
+            return url.template.content+"geojson/ch3.html";
+        case "map/ch4":
+            return url.template.content+"geojson/ch4.html";
         default:
             return url.template.content+"home.html";
     }
@@ -67,6 +75,16 @@ export function getURLContentJS(){
             return url.view.content+"saved.js";
         case "logout":
             return url.view.content+"logout.js";
+        case "crud/get":
+            return url.template.content+"geojson/table.html";
+        case "map/ch1":
+            return url.template.content+"geojson/ch1.html";
+        case "map/ch2":
+            return url.template.content+"geojson/ch2.html";
+        case "map/ch3":
+            return url.template.content+"geojson/ch3.html";
+        case "map/ch4":
+            return url.template.content+"geojson/ch4.html";
         default:
             return url.view.content+"home.js";
     }
